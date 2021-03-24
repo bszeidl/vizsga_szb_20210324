@@ -1,0 +1,92 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.page-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border: black solid 1px;
+}
+
+.page-container .text-main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 85vh;
+  width: 80vw;
+  border: #f0eeee 1px solid;
+}
+
+.page-container .text-main-container h3 {
+  color: #f0eeee;
+}
+
+.page-container .text-main-container .bottom-text-container {
+  background-color: #f0eeee;
+  width: 100%;
+}
+
+.page-container .text-main-container .bottom-text-container h1 {
+  color: #bc865c;
+}
+
+.page-container .text-main-container .top-text-container {
+  /*height: 30%;*/
+  margin-top: 30%;
+  border: solid 1px black;
+}
+
+.page-container .text-main-container .mid-tex-container {
+  color: solid 1px black;
+}
+
+.page-container .text-main-container .mid-bottom-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50%;
+  border: solid 1px black;
+}
+
+.page-container .text-main-container .bottom-text-container {
+  border: solid 1px #f0eeee;
+  border-radius: 0 0 15px 15px;
+}
+/*# sourceMappingURL=page.css.map */

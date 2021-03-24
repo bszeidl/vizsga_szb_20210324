@@ -1,0 +1,19 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #bc865c;
+}
+
+.menu-container {
+  position: absolute;
+  top: 3vh;
+  right: 3vw;
+}
+/*# sourceMappingURL=App.css.map */
