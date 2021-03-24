@@ -22,7 +22,8 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  border: black solid 1px;
+  /*border: black solid 1px;*/
+  margin: 50px 10px;
 }
 
 .page-container .text-main-container {
@@ -60,11 +61,11 @@
 .page-container .text-main-container .top-text-container {
   /*height: 30%;*/
   margin-top: 30%;
-  border: solid 1px black;
+  /*border: solid 1px black;*/
 }
 
 .page-container .text-main-container .mid-tex-container {
-  color: solid 1px black;
+  /*border: solid 1px black;*/
 }
 
 .page-container .text-main-container .mid-bottom-container {
@@ -82,7 +83,7 @@
       -ms-flex-align: center;
           align-items: center;
   height: 50%;
-  border: solid 1px black;
+  /*border: solid 1px black;*/
 }
 
 .page-container .text-main-container .bottom-text-container {

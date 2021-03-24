@@ -15,8 +15,8 @@ $darkcolor: #bc865c;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	border: black solid 1px;
-	margin: 10px 5px;
+	/*border: black solid 1px;*/
+	margin: 50px 10px;
 
 	.text-main-container {
 		display: flex;
@@ -45,11 +45,11 @@ $darkcolor: #bc865c;
 		.top-text-container {
 			/*height: 30%;*/
 			margin-top: 30%;
-			border: solid 1px black;
+			/*border: solid 1px black;*/
 		}
 
 		.mid-tex-container {
-			color: solid 1px black;
+			/*border: solid 1px black;*/
 		}	
 		
 
@@ -59,7 +59,7 @@ $darkcolor: #bc865c;
 			justify-content: space-between;
 			align-items: center;
 			height: 50%;
-			border: solid 1px black;
+			/*border: solid 1px black;*/
 		}
 
 		.bottom-text-container {
@@ -68,3 +68,4 @@ $darkcolor: #bc865c;
 		}
 	}
 }
+
