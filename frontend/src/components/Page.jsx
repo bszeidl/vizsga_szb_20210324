@@ -9,21 +9,21 @@ const Page = () => {
 			<div className="text-main-container">
 
 				<div className="top-text-container">
-					<h3>VÁSÁRLÁSRÓL ÉS KISZÁLLÍTÁSRÓL</h3>
-					<h3>TERMÉKEK LISTÁJA</h3>
-					<h3>SZOLGÁLTATÁSOK</h3>
-					<h3>KAPCSOLAT</h3>
+					<h5>VÁSÁRLÁSRÓL ÉS KISZÁLLÍTÁSRÓL</h5>
+					<h5>TERMÉKEK LISTÁJA</h5>
+					<h5>SZOLGÁLTATÁSOK</h5>
+					<h5>KAPCSOLAT</h5>
 				</div>
 			
 				<div className="mid-bottom-container">
 					<div className="mid-tex-container">
-							<h3>ÁLTALÁNOS SZERZŐDÉSI FELTÉTELEK</h3>
-							<h3>ADATKEZELÉSI NYILATKOZAT</h3>
-							<h3>IMPRESSZUM</h3>
+							<h5>ÁLTALÁNOS SZERZŐDÉSI FELTÉTELEK</h5>
+							<h5>ADATKEZELÉSI NYILATKOZAT</h5>
+							<h5>IMPRESSZUM</h5>
 					</div>				
 
 					<div className="bottom-text-container">
-						<h1>MORELLA</h1>
+						<h2>MORELLA</h2>
 					</div>
 				</div>
 

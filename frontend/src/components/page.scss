@@ -1,4 +1,4 @@
-$lightcolor: #f0eeee;
+$lightcolor: #fff6f6;
 $darkcolor: #bc865c;
 
 *,
@@ -15,54 +15,104 @@ $darkcolor: #bc865c;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	/*border: black solid 1px;*/
-	margin: 50px 10px;
-
-	.text-main-container {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		align-items: center;
-		height: 85vh;
-		width: 80vw;
-		border: $lightcolor 1px solid;
-
-
-		h3 {
+	height: 100vh;
+	width: 100vw;
+	
+		h5 {
 			color: $lightcolor;
+			font-weight: 400;
+			letter-spacing: 2px;
+			line-height: 40px;
 		}
 
-		.bottom-text-container {
-			background-color: $lightcolor;
-			width: 100%;
-
-			h1 {
-				color: $darkcolor;
-			}
-			
-		}
-
-		.top-text-container {
-			/*height: 30%;*/
-			margin-top: 30%;
+		.top-text-container {			
+			margin-top: 100px;
+			padding: 0 10px 0 10px;
 			/*border: solid 1px black;*/
-		}
-
+		}				
 		
 
-		.mid-bottom-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: space-between;
-			align-items: center;
-			height: 50%;
-			/*border: solid 1px black;*/
+		.mid-tex-container {
+			margin-bottom: 60px;
+			padding: 0 10px 0 10px;
 		}
 
 		.bottom-text-container {
-			border: solid 1px $lightcolor;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: $lightcolor;
+			width: 100%;
+			/*border: solid 1px $lightcolor;*/
 			border-radius: 0 0 15px 15px;
+			height: 60px;
+
+				h2 {
+					color: $darkcolor;
+				}
+
 		}
-	}
+	
 }
+
+
+.text-main-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 80vw;
+	height: 85vh;	
+	/*margin: 40px 20px;*/
+	border: $lightcolor 1px solid;
+	border-radius: 0 0 20px 20px;
+}
+
+.mid-bottom-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	
+	width: 100%;
+	/*border: solid 1px black;*/
+}
+
+@media screen and (min-width: 1024px) {
+	.text-main-container {
+		width: 90vw;
+		height: 90vh;		
+	}	
+}
+
+@media screen and (min-width: 1280px) {
+	.text-main-container {
+		width: 95vw;
+		height: 85vh;	
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;	
+		align-items:flex-start;
+	}	
+
+	.mid-bottom-container {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}
+
+
+	.top-text-container {
+		margin-left: 100px;
+		text-align: left;
+	}
+	.mid-tex-container {
+		margin-right: 100px;
+		text-align: right;
+	}
+
+}
+
+
+
 

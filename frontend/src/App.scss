@@ -11,13 +11,55 @@ $darkcolor: #bc865c;
 
 body {
 	background-color: $darkcolor;
+	font-family: 'Overpass', sans-serif;	
+	/*border: black 1px solid;*/
 }
 
+.App {	
+	/*border: red 1px solid;	*/
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;	
+}
 
 .menu-container {
 	position: absolute;
-	top: 3vh;
-	right: 3vw;
+	top: 4vh;
+	right:5vw;
+}
+
+@media screen and (min-width: 768px) {
+	.menu-container {
+		position: absolute;
+		top: 5vh;
+		right: 7vw;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.menu-container {
+		position: absolute;
+		top: 3vh;
+		right: 10vw;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.menu-container {
+		position: absolute;
+		top: 3vh;
+		right: 3vw;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.menu-container {
+		position: absolute;
+		top: 4vh;
+		right: 1vw;
+	}
 }
 
 

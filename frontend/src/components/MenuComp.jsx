@@ -8,25 +8,25 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyle = makeStyles({
   
    hambicon: {
-    backgroundColor: "#f0eeee", /*dark*/
-    color: "#bc865c", /*light*/
+    backgroundColor: "#f0eeee",
+    color: "#bc865c",
     stroke: "#bc865c",
-    fontSize: "80px",
+    fontSize: "60px",
     right: "15px",
     top: "15px",
-    padding: "20px",
+    padding: "10px",
     borderRadius: "50%",
-    border: "2px solid #f0eeee",
+    border: "1px solid #f0eeee",
     borderColor: "#f0eeee",
     '&:hover': {
-      backgroundColor: "#f0eeee",
-      color: "#242d38",
+      backgroundColor: "#bc865c",
+      color: "#f0eeee",
       stroke: "#f0eeee",
-       border: "2px solid #f0eeee",
+      border: "1px solid #f0eeee",
     },
-    '@media (min-width: 50em)': { 
+    /*'@media (min-width: 50em)': { 
       fontSize: "100px",
-    }
+    }*/
     
   },
 });
